@@ -48,11 +48,15 @@ class Config:
 
         return self
 
+    def remove_base_config(self):
+        del self.base_config
+        return self
+
     def load_config(self):
         self.load_yaml_config()
         self.load_env_config()
         self.load_argparse_config()
-
+        self.remove_base_config()
         return self
 
 

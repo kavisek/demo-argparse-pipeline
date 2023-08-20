@@ -1,4 +1,5 @@
 
 
 env: local
-destination: /tmp
+source: ./data
+destination: ./source
