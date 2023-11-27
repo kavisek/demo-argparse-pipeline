@@ -1,4 +1,4 @@
-# demo-argpase-pipeline
+# demo-argparse-pipeline
 
 This repo is a sample pipeline using `argparse` to parse command line arguments. The pipeline has a base config that your can find at `./config.yaml`. The pipeline can run
 with the default config using the following command. 
