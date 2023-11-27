@@ -133,7 +133,6 @@ dmypy.json
 
 # Database Files
 *.db
-**/*.csv
 **/*.xlsx
 
 # Custom Files
