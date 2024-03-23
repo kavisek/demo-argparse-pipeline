@@ -11,7 +11,7 @@ poetry run python3 main.py
 The pipeline config can be overwritten at run time using the following command. 
 
 ```bash
-python main.py --env dev --author setsuna
+poetry run python main.py --env dev --author setsuna
 ```
 
 The heirachary of config is as follows.
